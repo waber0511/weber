@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D41D5BC1C7862F400E4B0D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D41D5BB1C7862F400E4B0D5 /* main.m */; };
+		2D41D5BF1C7862F400E4B0D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D41D5BE1C7862F400E4B0D5 /* AppDelegate.m */; };
+		2D41D5C21C7862F400E4B0D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D41D5C11C7862F400E4B0D5 /* ViewController.m */; };
+		2D41D5C51C7862F400E4B0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D41D5C31C7862F400E4B0D5 /* Main.storyboard */; };
+		2D41D5C81C7862F400E4B0D5 /* webar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D41D5C61C7862F400E4B0D5 /* webar.xcdatamodeld */; };
+		2D41D5CA1C7862F400E4B0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D41D5C91C7862F400E4B0D5 /* Assets.xcassets */; };
+		2D41D5CD1C7862F400E4B0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D41D5CB1C7862F400E4B0D5 /* LaunchScreen.storyboard */; };
+		2D41D5D81C7862F400E4B0D5 /* webarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D41D5D71C7862F400E4B0D5 /* webarTests.m */; };
+		2D41D5E31C7862F400E4B0D5 /* webarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D41D5E21C7862F400E4B0D5 /* webarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D41D5D41C7862F400E4B0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D41D5AF1C7862F400E4B0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D41D5B61C7862F400E4B0D5;
+			remoteInfo = webar;
+		};
+		2D41D5DF1C7862F400E4B0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D41D5AF1C7862F400E4B0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D41D5B61C7862F400E4B0D5;
+			remoteInfo = webar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D41D5B71C7862F400E4B0D5 /* webar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D41D5BB1C7862F400E4B0D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D41D5BD1C7862F400E4B0D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D41D5BE1C7862F400E4B0D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D41D5C01C7862F400E4B0D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D41D5C11C7862F400E4B0D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D41D5C41C7862F400E4B0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D41D5C71C7862F400E4B0D5 /* webar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = webar.xcdatamodel; sourceTree = "<group>"; };
+		2D41D5C91C7862F400E4B0D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D41D5CC1C7862F400E4B0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D41D5CE1C7862F400E4B0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D41D5D31C7862F400E4B0D5 /* webarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D41D5D71C7862F400E4B0D5 /* webarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webarTests.m; sourceTree = "<group>"; };
+		2D41D5D91C7862F400E4B0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D41D5DE1C7862F400E4B0D5 /* webarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D41D5E21C7862F400E4B0D5 /* webarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webarUITests.m; sourceTree = "<group>"; };
+		2D41D5E41C7862F400E4B0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D41D5B41C7862F400E4B0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D41D5D01C7862F400E4B0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D41D5DB1C7862F400E4B0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D41D5AE1C7862F400E4B0D5 = {
+			isa = PBXGroup;
+			children = (
+				2D41D5B91C7862F400E4B0D5 /* webar */,
+				2D41D5D61C7862F400E4B0D5 /* webarTests */,
+				2D41D5E11C7862F400E4B0D5 /* webarUITests */,
+				2D41D5B81C7862F400E4B0D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D41D5B81C7862F400E4B0D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D41D5B71C7862F400E4B0D5 /* webar.app */,
+				2D41D5D31C7862F400E4B0D5 /* webarTests.xctest */,
+				2D41D5DE1C7862F400E4B0D5 /* webarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D41D5B91C7862F400E4B0D5 /* webar */ = {
+			isa = PBXGroup;
+			children = (
+				2D41D5BD1C7862F400E4B0D5 /* AppDelegate.h */,
+				2D41D5BE1C7862F400E4B0D5 /* AppDelegate.m */,
+				2D41D5C01C7862F400E4B0D5 /* ViewController.h */,
+				2D41D5C11C7862F400E4B0D5 /* ViewController.m */,
+				2D41D5C31C7862F400E4B0D5 /* Main.storyboard */,
+				2D41D5C91C7862F400E4B0D5 /* Assets.xcassets */,
+				2D41D5CB1C7862F400E4B0D5 /* LaunchScreen.storyboard */,
+				2D41D5CE1C7862F400E4B0D5 /* Info.plist */,
+				2D41D5C61C7862F400E4B0D5 /* webar.xcdatamodeld */,
+				2D41D5BA1C7862F400E4B0D5 /* Supporting Files */,
+			);
+			path = webar;
+			sourceTree = "<group>";
+		};
+		2D41D5BA1C7862F400E4B0D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D41D5BB1C7862F400E4B0D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D41D5D61C7862F400E4B0D5 /* webarTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D41D5D71C7862F400E4B0D5 /* webarTests.m */,
+				2D41D5D91C7862F400E4B0D5 /* Info.plist */,
+			);
+			path = webarTests;
+			sourceTree = "<group>";
+		};
+		2D41D5E11C7862F400E4B0D5 /* webarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D41D5E21C7862F400E4B0D5 /* webarUITests.m */,
+				2D41D5E41C7862F400E4B0D5 /* Info.plist */,
+			);
+			path = webarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D41D5B61C7862F400E4B0D5 /* webar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D41D5E71C7862F400E4B0D5 /* Build configuration list for PBXNativeTarget "webar" */;
+			buildPhases = (
+				2D41D5B31C7862F400E4B0D5 /* Sources */,
+				2D41D5B41C7862F400E4B0D5 /* Frameworks */,
+				2D41D5B51C7862F400E4B0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = webar;
+			productName = webar;
+			productReference = 2D41D5B71C7862F400E4B0D5 /* webar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D41D5D21C7862F400E4B0D5 /* webarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D41D5EA1C7862F400E4B0D5 /* Build configuration list for PBXNativeTarget "webarTests" */;
+			buildPhases = (
+				2D41D5CF1C7862F400E4B0D5 /* Sources */,
+				2D41D5D01C7862F400E4B0D5 /* Frameworks */,
+				2D41D5D11C7862F400E4B0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D41D5D51C7862F400E4B0D5 /* PBXTargetDependency */,
+			);
+			name = webarTests;
+			productName = webarTests;
+			productReference = 2D41D5D31C7862F400E4B0D5 /* webarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D41D5DD1C7862F400E4B0D5 /* webarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D41D5ED1C7862F400E4B0D5 /* Build configuration list for PBXNativeTarget "webarUITests" */;
+			buildPhases = (
+				2D41D5DA1C7862F400E4B0D5 /* Sources */,
+				2D41D5DB1C7862F400E4B0D5 /* Frameworks */,
+				2D41D5DC1C7862F400E4B0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D41D5E01C7862F400E4B0D5 /* PBXTargetDependency */,
+			);
+			name = webarUITests;
+			productName = webarUITests;
+			productReference = 2D41D5DE1C7862F400E4B0D5 /* webarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D41D5AF1C7862F400E4B0D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "贾玉斌";
+				TargetAttributes = {
+					2D41D5B61C7862F400E4B0D5 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					2D41D5D21C7862F400E4B0D5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2D41D5B61C7862F400E4B0D5;
+					};
+					2D41D5DD1C7862F400E4B0D5 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2D41D5B61C7862F400E4B0D5;
+					};
+				};
+			};
+			buildConfigurationList = 2D41D5B21C7862F400E4B0D5 /* Build configuration list for PBXProject "webar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D41D5AE1C7862F400E4B0D5;
+			productRefGroup = 2D41D5B81C7862F400E4B0D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D41D5B61C7862F400E4B0D5 /* webar */,
+				2D41D5D21C7862F400E4B0D5 /* webarTests */,
+				2D41D5DD1C7862F400E4B0D5 /* webarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D41D5B51C7862F400E4B0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D41D5CD1C7862F400E4B0D5 /* LaunchScreen.storyboard in Resources */,
+				2D41D5CA1C7862F400E4B0D5 /* Assets.xcassets in Resources */,
+				2D41D5C51C7862F400E4B0D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D41D5D11C7862F400E4B0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D41D5DC1C7862F400E4B0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D41D5B31C7862F400E4B0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D41D5C21C7862F400E4B0D5 /* ViewController.m in Sources */,
+				2D41D5BF1C7862F400E4B0D5 /* AppDelegate.m in Sources */,
+				2D41D5BC1C7862F400E4B0D5 /* main.m in Sources */,
+				2D41D5C81C7862F400E4B0D5 /* webar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D41D5CF1C7862F400E4B0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D41D5D81C7862F400E4B0D5 /* webarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D41D5DA1C7862F400E4B0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D41D5E31C7862F400E4B0D5 /* webarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D41D5D51C7862F400E4B0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D41D5B61C7862F400E4B0D5 /* webar */;
+			targetProxy = 2D41D5D41C7862F400E4B0D5 /* PBXContainerItemProxy */;
+		};
+		2D41D5E01C7862F400E4B0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D41D5B61C7862F400E4B0D5 /* webar */;
+			targetProxy = 2D41D5DF1C7862F400E4B0D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D41D5C31C7862F400E4B0D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D41D5C41C7862F400E4B0D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D41D5CB1C7862F400E4B0D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D41D5CC1C7862F400E4B0D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D41D5E51C7862F400E4B0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D41D5E61C7862F400E4B0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D41D5E81C7862F400E4B0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = webar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = webarComapny.webar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D41D5E91C7862F400E4B0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = webar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = webarComapny.webar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2D41D5EB1C7862F400E4B0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = webarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = webarComapny.webarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webar.app/webar";
+			};
+			name = Debug;
+		};
+		2D41D5EC1C7862F400E4B0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = webarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = webarComapny.webarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webar.app/webar";
+			};
+			name = Release;
+		};
+		2D41D5EE1C7862F400E4B0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = webarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = webarComapny.webarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = webar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2D41D5EF1C7862F400E4B0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = webarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = webarComapny.webarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = webar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D41D5B21C7862F400E4B0D5 /* Build configuration list for PBXProject "webar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D41D5E51C7862F400E4B0D5 /* Debug */,
+				2D41D5E61C7862F400E4B0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D41D5E71C7862F400E4B0D5 /* Build configuration list for PBXNativeTarget "webar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D41D5E81C7862F400E4B0D5 /* Debug */,
+				2D41D5E91C7862F400E4B0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D41D5EA1C7862F400E4B0D5 /* Build configuration list for PBXNativeTarget "webarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D41D5EB1C7862F400E4B0D5 /* Debug */,
+				2D41D5EC1C7862F400E4B0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D41D5ED1C7862F400E4B0D5 /* Build configuration list for PBXNativeTarget "webarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D41D5EE1C7862F400E4B0D5 /* Debug */,
+				2D41D5EF1C7862F400E4B0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D41D5C61C7862F400E4B0D5 /* webar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D41D5C71C7862F400E4B0D5 /* webar.xcdatamodel */,
+			);
+			currentVersion = 2D41D5C71C7862F400E4B0D5 /* webar.xcdatamodel */;
+			path = webar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D41D5AF1C7862F400E4B0D5 /* Project object */;
+}

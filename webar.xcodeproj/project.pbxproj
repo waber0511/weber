@@ -16,6 +16,8 @@
 		2D41D5CD1C7862F400E4B0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D41D5CB1C7862F400E4B0D5 /* LaunchScreen.storyboard */; };
 		2D41D5D81C7862F400E4B0D5 /* webarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D41D5D71C7862F400E4B0D5 /* webarTests.m */; };
 		2D41D5E31C7862F400E4B0D5 /* webarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D41D5E21C7862F400E4B0D5 /* webarUITests.m */; };
+		2D41D5F31C786E0900E4B0D5 /* MyDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D41D5F21C786E0900E4B0D5 /* MyDownloader.m */; };
+		7114BAE72FC6E4DA0EE68BE8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1732E496AF211EEE5090B742 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1732E496AF211EEE5090B742 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D41D5B71C7862F400E4B0D5 /* webar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D41D5BB1C7862F400E4B0D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D41D5BD1C7862F400E4B0D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +56,10 @@
 		2D41D5DE1C7862F400E4B0D5 /* webarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D41D5E21C7862F400E4B0D5 /* webarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webarUITests.m; sourceTree = "<group>"; };
 		2D41D5E41C7862F400E4B0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D41D5F11C786E0900E4B0D5 /* MyDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDownloader.h; sourceTree = "<group>"; };
+		2D41D5F21C786E0900E4B0D5 /* MyDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDownloader.m; sourceTree = "<group>"; };
+		5E1E4DC0DC1D6B1F516305A7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F2759E6A91D6FC68FCB4B335 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7114BAE72FC6E4DA0EE68BE8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,10 +91,13 @@
 		2D41D5AE1C7862F400E4B0D5 = {
 			isa = PBXGroup;
 			children = (
+				2D41D5F01C786DA900E4B0D5 /* utils */,
 				2D41D5B91C7862F400E4B0D5 /* webar */,
 				2D41D5D61C7862F400E4B0D5 /* webarTests */,
 				2D41D5E11C7862F400E4B0D5 /* webarUITests */,
 				2D41D5B81C7862F400E4B0D5 /* Products */,
+				944B0D61052192B5BD01FEDB /* Pods */,
+				B242ACD981CB3E766B6B203D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +154,33 @@
 			path = webarUITests;
 			sourceTree = "<group>";
 		};
+		2D41D5F01C786DA900E4B0D5 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				2D41D5F11C786E0900E4B0D5 /* MyDownloader.h */,
+				2D41D5F21C786E0900E4B0D5 /* MyDownloader.m */,
+			);
+			name = utils;
+			path = webar;
+			sourceTree = "<group>";
+		};
+		944B0D61052192B5BD01FEDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E1E4DC0DC1D6B1F516305A7 /* Pods.debug.xcconfig */,
+				F2759E6A91D6FC68FCB4B335 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B242ACD981CB3E766B6B203D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1732E496AF211EEE5090B742 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D41D5E71C7862F400E4B0D5 /* Build configuration list for PBXNativeTarget "webar" */;
 			buildPhases = (
+				5A06C9A096E89B7DBDBC7864 /* Check Pods Manifest.lock */,
 				2D41D5B31C7862F400E4B0D5 /* Sources */,
 				2D41D5B41C7862F400E4B0D5 /* Frameworks */,
 				2D41D5B51C7862F400E4B0D5 /* Resources */,
+				00717BBE5BCEA627B18B9870 /* Embed Pods Frameworks */,
+				E9E138489DD33D9757189FAE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +309,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00717BBE5BCEA627B18B9870 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A06C9A096E89B7DBDBC7864 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9E138489DD33D9757189FAE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D41D5B31C7862F400E4B0D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -275,6 +364,7 @@
 			files = (
 				2D41D5C21C7862F400E4B0D5 /* ViewController.m in Sources */,
 				2D41D5BF1C7862F400E4B0D5 /* AppDelegate.m in Sources */,
+				2D41D5F31C786E0900E4B0D5 /* MyDownloader.m in Sources */,
 				2D41D5BC1C7862F400E4B0D5 /* main.m in Sources */,
 				2D41D5C81C7862F400E4B0D5 /* webar.xcdatamodeld in Sources */,
 			);
@@ -415,6 +505,7 @@
 		};
 		2D41D5E81C7862F400E4B0D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1E4DC0DC1D6B1F516305A7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = webar/Info.plist;
@@ -426,6 +517,7 @@
 		};
 		2D41D5E91C7862F400E4B0D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2759E6A91D6FC68FCB4B335 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = webar/Info.plist;
@@ -502,6 +594,7 @@
 				2D41D5E91C7862F400E4B0D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D41D5EA1C7862F400E4B0D5 /* Build configuration list for PBXNativeTarget "webarTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +603,7 @@
 				2D41D5EC1C7862F400E4B0D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2D41D5ED1C7862F400E4B0D5 /* Build configuration list for PBXNativeTarget "webarUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +612,7 @@
 				2D41D5EF1C7862F400E4B0D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

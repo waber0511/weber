@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D1CF15B1C7E9F8C0057C4E9 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CF15A1C7E9F8C0057C4E9 /* MainTabBarController.m */; };
+		2D1CF15E1C7EA0190057C4E9 /* BROptionsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CF15D1C7EA0190057C4E9 /* BROptionsButton.m */; };
+		2D1CF1611C7EA05F0057C4E9 /* BROptionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CF1601C7EA05F0057C4E9 /* BROptionItem.m */; };
+		2D1CF1641C7EA5AB0057C4E9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CF1631C7EA5AB0057C4E9 /* FirstViewController.m */; };
+		2D1CF16D1C7EB7E10057C4E9 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CF16C1C7EB7E10057C4E9 /* ThirdViewController.m */; };
+		2D1CF1711C7ED4580057C4E9 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CF1701C7ED4580057C4E9 /* SecondVC.m */; };
+		2D1CF1741C7EDD100057C4E9 /* Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1CF1721C7EDD100057C4E9 /* Apple.png */; };
+		2D1CF1751C7EDD100057C4E9 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1CF1731C7EDD100057C4E9 /* close.png */; };
 		2D41D5BC1C7862F400E4B0D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D41D5BB1C7862F400E4B0D5 /* main.m */; };
 		2D41D5BF1C7862F400E4B0D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D41D5BE1C7862F400E4B0D5 /* AppDelegate.m */; };
-		2D41D5C21C7862F400E4B0D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D41D5C11C7862F400E4B0D5 /* ViewController.m */; };
 		2D41D5C51C7862F400E4B0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D41D5C31C7862F400E4B0D5 /* Main.storyboard */; };
 		2D41D5C81C7862F400E4B0D5 /* webar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D41D5C61C7862F400E4B0D5 /* webar.xcdatamodeld */; };
 		2D41D5CA1C7862F400E4B0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D41D5C91C7862F400E4B0D5 /* Assets.xcassets */; };
@@ -17,7 +24,6 @@
 		2D41D5D81C7862F400E4B0D5 /* webarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D41D5D71C7862F400E4B0D5 /* webarTests.m */; };
 		2D41D5E31C7862F400E4B0D5 /* webarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D41D5E21C7862F400E4B0D5 /* webarUITests.m */; };
 		2D41D5F31C786E0900E4B0D5 /* MyDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D41D5F21C786E0900E4B0D5 /* MyDownloader.m */; };
-		7114BAE72FC6E4DA0EE68BE8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1732E496AF211EEE5090B742 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +44,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1732E496AF211EEE5090B742 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1CF1591C7E9F8C0057C4E9 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		2D1CF15A1C7E9F8C0057C4E9 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		2D1CF15C1C7EA0190057C4E9 /* BROptionsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BROptionsButton.h; sourceTree = "<group>"; };
+		2D1CF15D1C7EA0190057C4E9 /* BROptionsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BROptionsButton.m; sourceTree = "<group>"; };
+		2D1CF15F1C7EA05F0057C4E9 /* BROptionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BROptionItem.h; sourceTree = "<group>"; };
+		2D1CF1601C7EA05F0057C4E9 /* BROptionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BROptionItem.m; sourceTree = "<group>"; };
+		2D1CF1621C7EA5AB0057C4E9 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		2D1CF1631C7EA5AB0057C4E9 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		2D1CF16B1C7EB7E10057C4E9 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		2D1CF16C1C7EB7E10057C4E9 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		2D1CF16E1C7EC1560057C4E9 /* BROptionsButtonDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BROptionsButtonDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2D1CF16F1C7ED4580057C4E9 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		2D1CF1701C7ED4580057C4E9 /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		2D1CF1721C7EDD100057C4E9 /* Apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple.png; sourceTree = "<group>"; };
+		2D1CF1731C7EDD100057C4E9 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		2D41D5B71C7862F400E4B0D5 /* webar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D41D5BB1C7862F400E4B0D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D41D5BD1C7862F400E4B0D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2D41D5BE1C7862F400E4B0D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2D41D5C01C7862F400E4B0D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2D41D5C11C7862F400E4B0D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2D41D5C41C7862F400E4B0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D41D5C71C7862F400E4B0D5 /* webar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = webar.xcdatamodel; sourceTree = "<group>"; };
 		2D41D5C91C7862F400E4B0D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,8 +76,6 @@
 		2D41D5E41C7862F400E4B0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D41D5F11C786E0900E4B0D5 /* MyDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDownloader.h; sourceTree = "<group>"; };
 		2D41D5F21C786E0900E4B0D5 /* MyDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDownloader.m; sourceTree = "<group>"; };
-		5E1E4DC0DC1D6B1F516305A7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		F2759E6A91D6FC68FCB4B335 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +83,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7114BAE72FC6E4DA0EE68BE8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +103,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D1CF1761C7EDE680057C4E9 /* FirstView */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CF1621C7EA5AB0057C4E9 /* FirstViewController.h */,
+				2D1CF1631C7EA5AB0057C4E9 /* FirstViewController.m */,
+			);
+			name = FirstView;
+			sourceTree = "<group>";
+		};
+		2D1CF1771C7EDEB90057C4E9 /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CF16E1C7EC1560057C4E9 /* BROptionsButtonDemo-Prefix.pch */,
+				2D1CF16F1C7ED4580057C4E9 /* SecondVC.h */,
+				2D1CF1701C7ED4580057C4E9 /* SecondVC.m */,
+				2D1CF15F1C7EA05F0057C4E9 /* BROptionItem.h */,
+				2D1CF1601C7EA05F0057C4E9 /* BROptionItem.m */,
+				2D1CF15C1C7EA0190057C4E9 /* BROptionsButton.h */,
+				2D1CF15D1C7EA0190057C4E9 /* BROptionsButton.m */,
+			);
+			name = SecondView;
+			sourceTree = "<group>";
+		};
+		2D1CF1781C7EDED00057C4E9 /* ThirdView */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CF16B1C7EB7E10057C4E9 /* ThirdViewController.h */,
+				2D1CF16C1C7EB7E10057C4E9 /* ThirdViewController.m */,
+			);
+			name = ThirdView;
+			sourceTree = "<group>";
+		};
+		2D1CF1791C7EDF2B0057C4E9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CF1721C7EDD100057C4E9 /* Apple.png */,
+				2D1CF1731C7EDD100057C4E9 /* close.png */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
 		2D41D5AE1C7862F400E4B0D5 = {
 			isa = PBXGroup;
 			children = (
@@ -96,8 +152,6 @@
 				2D41D5D61C7862F400E4B0D5 /* webarTests */,
 				2D41D5E11C7862F400E4B0D5 /* webarUITests */,
 				2D41D5B81C7862F400E4B0D5 /* Products */,
-				944B0D61052192B5BD01FEDB /* Pods */,
-				B242ACD981CB3E766B6B203D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,15 +168,19 @@
 		2D41D5B91C7862F400E4B0D5 /* webar */ = {
 			isa = PBXGroup;
 			children = (
+				2D1CF1781C7EDED00057C4E9 /* ThirdView */,
+				2D1CF1761C7EDE680057C4E9 /* FirstView */,
+				2D1CF1771C7EDEB90057C4E9 /* SecondView */,
+				2D1CF1591C7E9F8C0057C4E9 /* MainTabBarController.h */,
+				2D1CF15A1C7E9F8C0057C4E9 /* MainTabBarController.m */,
 				2D41D5BD1C7862F400E4B0D5 /* AppDelegate.h */,
 				2D41D5BE1C7862F400E4B0D5 /* AppDelegate.m */,
-				2D41D5C01C7862F400E4B0D5 /* ViewController.h */,
-				2D41D5C11C7862F400E4B0D5 /* ViewController.m */,
 				2D41D5C31C7862F400E4B0D5 /* Main.storyboard */,
 				2D41D5C91C7862F400E4B0D5 /* Assets.xcassets */,
 				2D41D5CB1C7862F400E4B0D5 /* LaunchScreen.storyboard */,
 				2D41D5CE1C7862F400E4B0D5 /* Info.plist */,
 				2D41D5C61C7862F400E4B0D5 /* webar.xcdatamodeld */,
+				2D1CF1791C7EDF2B0057C4E9 /* Source */,
 				2D41D5BA1C7862F400E4B0D5 /* Supporting Files */,
 			);
 			path = webar;
@@ -164,23 +222,6 @@
 			path = webar;
 			sourceTree = "<group>";
 		};
-		944B0D61052192B5BD01FEDB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5E1E4DC0DC1D6B1F516305A7 /* Pods.debug.xcconfig */,
-				F2759E6A91D6FC68FCB4B335 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B242ACD981CB3E766B6B203D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1732E496AF211EEE5090B742 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,12 +229,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D41D5E71C7862F400E4B0D5 /* Build configuration list for PBXNativeTarget "webar" */;
 			buildPhases = (
-				5A06C9A096E89B7DBDBC7864 /* Check Pods Manifest.lock */,
 				2D41D5B31C7862F400E4B0D5 /* Sources */,
 				2D41D5B41C7862F400E4B0D5 /* Frameworks */,
 				2D41D5B51C7862F400E4B0D5 /* Resources */,
-				00717BBE5BCEA627B18B9870 /* Embed Pods Frameworks */,
-				E9E138489DD33D9757189FAE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,6 +327,8 @@
 			files = (
 				2D41D5CD1C7862F400E4B0D5 /* LaunchScreen.storyboard in Resources */,
 				2D41D5CA1C7862F400E4B0D5 /* Assets.xcassets in Resources */,
+				2D1CF1741C7EDD100057C4E9 /* Apple.png in Resources */,
+				2D1CF1751C7EDD100057C4E9 /* close.png in Resources */,
 				2D41D5C51C7862F400E4B0D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,62 +349,19 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		00717BBE5BCEA627B18B9870 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5A06C9A096E89B7DBDBC7864 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E9E138489DD33D9757189FAE /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		2D41D5B31C7862F400E4B0D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D41D5C21C7862F400E4B0D5 /* ViewController.m in Sources */,
+				2D1CF1711C7ED4580057C4E9 /* SecondVC.m in Sources */,
+				2D1CF1641C7EA5AB0057C4E9 /* FirstViewController.m in Sources */,
 				2D41D5BF1C7862F400E4B0D5 /* AppDelegate.m in Sources */,
+				2D1CF15E1C7EA0190057C4E9 /* BROptionsButton.m in Sources */,
+				2D1CF16D1C7EB7E10057C4E9 /* ThirdViewController.m in Sources */,
+				2D1CF15B1C7E9F8C0057C4E9 /* MainTabBarController.m in Sources */,
 				2D41D5F31C786E0900E4B0D5 /* MyDownloader.m in Sources */,
+				2D1CF1611C7EA05F0057C4E9 /* BROptionItem.m in Sources */,
 				2D41D5BC1C7862F400E4B0D5 /* main.m in Sources */,
 				2D41D5C81C7862F400E4B0D5 /* webar.xcdatamodeld in Sources */,
 			);
@@ -505,7 +502,6 @@
 		};
 		2D41D5E81C7862F400E4B0D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E1E4DC0DC1D6B1F516305A7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = webar/Info.plist;
@@ -517,7 +513,6 @@
 		};
 		2D41D5E91C7862F400E4B0D5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2759E6A91D6FC68FCB4B335 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = webar/Info.plist;
